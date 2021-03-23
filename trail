@@ -1,0 +1,14 @@
+class Tech_2019
+{
+    public static void main(int n)
+    {if(n==1000 && n<=9999)
+        {int f,s;
+        f=n/100;
+        s=n%100;
+        if((f+s)*(f+s)==n)
+        System.out.println("Tech no.");
+        else
+        System.out.println("Not a Tech no.");
+    }
+}
+}
